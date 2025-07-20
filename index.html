@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Philip Muhuri - Professional Writer & Web Developer</title>
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- AOS Animation Library -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+<link rel="icon" href="favicon.ico" type="image/x-icon" />
+<link rel="icon" href="favicon.svg" type="image/svg+xml" />
+<link rel="icon" href="favicon-96x96.png" type="image/png" sizes="96x96" />
+<link rel="icon" href="favicon-16x16.png" type="image/png" sizes="16x16" />
+<link rel="icon" href="favicon-32x32.png" type="image/png" sizes="32x32" />
+<link rel="icon" href="android-chrome-192x192.png" type="image/png" sizes="192x192" />
+<link rel="icon" href="android-chrome-512x512.png" type="image/png" sizes="512x512" />
+<link rel="apple-touch-icon" href="apple-touch-icon.png" sizes="180x180" />
+<link rel="manifest" href="site.webmanifest" />
+<link rel="icon" type="image/png" href="web-app-manifest-512x512.png" />
+<link rel="icon" type="image/png" href="web-app-manifest-192x192.png" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="light-mode">
+    
+    <div id="particles-js"></div>
+
+    <!-- Navigation -->
+    <nav class="navigation fixed top-0 left-0 w-full py-3 z-50 transition-all" id="navbar">
+        <div class="container mx-auto px-4 flex items-center justify-between">
+            <a href="#home" class="text-2xl font-bold header-font flex items-center">
+                <span class="text-primary" id="name">Dr.Philip</span>&nbsp;
+                <span class="M">M</span>
+                <span class="u">u</span>
+                <span class="h">h</span>
+                <span class="u">u</span>
+                <span class="r">r</span>
+                <span class="i">i</span>
+            </a>
+            <div class="hidden md:flex items-center">
+        
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#blog" class="nav-link">Blog</a>
+                <a href="#contact" class="nav-link">Contact</a>
+          
+            </div>
+            <div class="flex items-center">
+                <div class="toggle-container mr-4" id="theme-toggle">
+                    <div class="toggle-circle"></div>
+                    <i class="fas fa-sun"></i>
+                    <i class="fas fa-moon"></i>
+                </div>
+                <a href="https://www.upwork.com/freelancers/~01e0000e6224a3e299" 
+                target="_blank" rel="nofollow noopener noreferrer" class="btn-primary hidden md:inline-block">Hire Me</a>
+                <button class="md:hidden text-2xl" id="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden bg-white dark:bg-gray-800 py-5 shadow-lg absolute top-full left-0 w-full" id="mobile-menu">
+            <div class="container mx-auto px-4">
+                <a href="#home" class="block py-3 border-b border-gray-200 dark:border-gray-700">Home</a>
+                <a href="#services" class="block py-3 border-b border-gray-200 dark:border-gray-700">Services</a>
+                <a href="#portfolio" class="block py-3 border-b border-gray-200 dark:border-gray-700">Portfolio</a>
+                <a href="#testimonials" class="block py-3 border-b border-gray-200 dark:border-gray-700">Testimonials</a>
+                <a href="#blog" class="block py-3 border-b border-gray-200 dark:border-gray-700">Blog</a>
+                <a href="#contact" class="block py-3">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero relative flex items-center">
+        
+        <div class="container mx-auto px-4">
+            
+
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right" data-aos-duration="1000">
+                    <h1 class="mine multicolor-text">DR.Philip Muhuri, OGW</h1>
+                    <h2 class="text-xl md:text-4xl mb-6 font-light">Professional Writer & Web Developer</h2>
+                    <p class="hero-p">Crafting compelling content and building professional websites that engage audiences and deliver results.</p>
+                    
+                    <div class="mb-8">
+                        
+                        <span class="keyword keyword-accent">Web Development</span>
+                        <span class="keyword keyword-accent">Portfolio Creator</span>
+                        <span class="keyword keyword-blue">Resume & CV Expert</span>
+                        <span class="keyword keyword-dark">Cover Letters Writing</span>
+                        <span class="keyword keyword-dark">SEO Optimization</span>
+                        <span class="keyword keyword-blue">Creative Writing</span>
+                        <span class="keyword keyword-dark">Proofreading & Editing</span>
+                        <span class="keyword keyword-accent">Blogs & Articles Writing</span>
+                        <span class="keyword keyword-accent">Academic Writing</span>
+                        <span class="keyword keyword-blue">AI Humanization</span>
+                        <span class="keyword keyword-dark">Plagiarism Checker</span>
+                        
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-4 mb-6">
+                        <a href="#portfolio" class="btn-primary flex items-center">
+                            View My Work
+                            <i class="fas fa-arrow-right ml-2"></i>
+                        </a>
+                        <a data-email-id="philip"class="hero-contact email-obfuscator">
+                            Contact Me
+                            <i class="fas fa-envelope ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="md:w-1/2 flex justify-center pt-10 md:pt-0" data-aos="fade-left" data-aos-duration="1000">
+                    
+                    <div class="relative">
+                        <div class="w-84 h-84 md:w-80 md:h-80 rounded-full flex items-center justify-center shadow-2xl">
+                            <img src="Photo.png" alt="Philip Muhuri" class="imgstyle"/>
+                        </div>
+
+                        <div class="pic-text">
+                            <p class="font-bold text-blue-600 text-center">5+ Years Experience</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section-container">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-blue-600">Services</span></h2>
+                <p class="text-lg max-w-2xl mx-auto">Delivering exceptional quality in Content creation, Writing Services and Web Development to help you achieve your goals.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service 1 -->
+                <div id="sc1" class="sc card p-8 service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-fancy"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Professional Writing</h3>
+                    <p class="mb-4">Compelling content creation for websites, blogs, articles, and business documents that engages readers and converts them to potential clients.</p>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            SEO-optimized blog posts
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Marketing copywriting
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Technical writing
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/254718856850?text=Need Impactful Content?, Expert and Plagiarism-free Writing for Blogs,Websites and Reports?. Let's Begin!"
+                    target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 flex items-center font-medium">
+                        Learn More
+                        <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 2 -->
+                <div id="sc2" class="card p-8 service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Proofreading & Editing</h3>
+                    <p class="mb-4">Meticulous review and refinement of your content to ensure clarity, zero-plagiarism, and professional quality.</p>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Grammar and spelling check
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Style and tone consistency
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Content structure improvement
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/254718856850?text=Flawless Writing Awaits! Expert Proofreading and Editing for Your Blog, Document, Research Paper etc. Ready When You Are!"
+                    target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 flex items-center font-medium">
+                        Learn More
+                        <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 3 -->
+                <div id="sc3" class="card p-8 service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Resume & CV Creation</h3>
+                    <p class="mb-4">Crafting professional resumes and CVs that highlight your strengths and help you stand out to potential employers.</p>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            ATS-friendly design
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Achievement-focused content
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Industry-specific optimization
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/254718856850?text=Hello! Let's Perfect Your Resume. Professional CV Writing Ready For You. Reach Out Now And Lock Your Spot!"
+                    target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 flex items-center font-medium">
+                        Learn More
+                        <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 4 -->
+                <div id="sc4" class="card p-8 service-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Website Development</h3>
+                    <p class="mb-4">Creating responsive, user-friendly websites that showcase your brand and drive business growth.</p>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Responsive design
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            SEO optimization
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Content management systems
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/254718856850?text=Hi! Need a Stunning Business or Personal Website?. Expert Development Services Here. What's the Start Date?" 
+                    target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 flex items-center font-medium">
+                        Learn More
+                        <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 5 -->
+                <div id="sc5" class="card p-8 service-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Portfolio Design</h3>
+                    <p class="mb-4">Showcasing your work with stunning, professional portfolio websites that impress potential clients.</p>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Custom portfolio layouts
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Project showcasing
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Visual storytelling
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/254718856850?text=Hello! Let's Craft Your Web Portfolio. Expert Development Services Ready. Lock In Your Spot Now?" 
+                    target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 flex items-center font-medium">
+                        Learn More
+                        <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+                
+                <!-- Service 6 -->
+                <div id="sc6" class="card p-8 service-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="service-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Content Strategy</h3>
+                    <p class="mb-4">Developing comprehensive content strategies that align with your business goals and connect with your audience.</p>
+                    <ul class="mb-6 space-y-2">
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Content calendar creation
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Audience analysis
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-check text-green-500 mr-3"></i>
+                            Performance tracking
+                        </li>
+                    </ul>
+                    <a href="https://wa.me/254718856850?text=Boost Your Reach! Data-Driven Content Strategy for Your Brand, Website etc. Start Planning?" 
+                    target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 flex items-center font-medium">
+                        Learn More
+                        <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section-container">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-blue-600">Portfolio</span></h2>
+                <p class="text-lg max-w-2xl mx-auto">Explore a selection of my recent projects showcasing my skills in Resume/CV Writing, Web & Portfolio Development, and Design.</p>
+            </div>
+            
+            <div class="mb-8 flex justify-center">
+                <div class="Portfoliogrid">
+                    <button class="portfolio-filter active px-4 py-2 rounded-md" data-filter="all">All Projects</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-md" data-filter="writing">Writing</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-md" data-filter="web">Web Development</button>
+                    <button class="portfolio-filter px-4 py-2 rounded-md" data-filter="resume">Resume Design</button>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Portfolio Item 1 -->
+                <a href="https://www.jumia.co.ke/" title="This link will take you to our Jumia store (opens in a new tab)" target="_blank">
+                    <div class="portfolio-item" data-category="web" data-aos="fade-up"
+                        data-aos-delay="100" id="portfolioitem">
+                
+                        <div class="bg-blue-100 dark:bg-blue-900 h-full flex items-center justify-center">
+                            <i class="fa-solid fa-cart-shopping text-blue-600 dark:text-blue-300 text-5xl"></i>
+                        </div>
+                        <div class="portfolio-overlay text-white">
+                            <h3 class="multicolor-text1">E-Commerce Website</h3>
+                            <p class="mb-3">A fully responsive online store with custom product pages and secure checkout.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Jumia</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Amazon</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Jiji</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">HTML</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">CSS</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">JavaScript</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Postgre SQL</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Digital Marketing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">SEO Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Web Development</span>
+
+                
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Portfolio Item 2 -->
+                <a href="https://drive.google.com/drive/folders/171g_E1L2JGrrJa7KaOp7LXKoKSldHZ2m?usp=drive_link" title="Explore selected samples of my written blogs (hosted on Google Drive)" target="_blank">
+                    <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="writing" data-aos="fade-up"
+                        data-aos-delay="200">
+                        <div class="bg-blue-50 dark:bg-blue-800 h-full flex items-center justify-center">
+                            <i class="fa-solid fa-blog -alt text-blue-600 dark:text-blue-300 text-5xl"></i>
+                        </div>
+                        <div class="portfolio-overlay text-white">
+                            <h3 class="multicolor-text1">Blog Articles</h3>
+                            <p class="mb-3">Series of in-depth articles about emerging technologies and digital trends.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Content Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">SEO Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Blog Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Article Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Proofreading & Editing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Technical Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Research</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Portfolio Item 3 -->
+                <a href="https://drive.google.com/drive/folders/1lfilYe5iLVHJLgbMm9WBZ9HSniAyq34a?usp=drive_link"
+                    title="View samples of Resumes & CVs I've designed (hosted on Google Drive)" target="_blank">
+                    <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="resume" data-aos="fade-up"
+                        data-aos-delay="300">
+                        <div class="bg-blue-100 dark:bg-blue-900 h-full flex items-center justify-center">
+                            <i class="fas fa-file-alt text-blue-600 dark:text-blue-300 text-5xl"></i>
+                        </div>
+                        <div class="portfolio-overlay text-white">
+                            <h3 class="multicolor-text1">Executive Resume & CV Design</h3>
+                            <p class="mb-3">ATS-friendly resume design with modern layout and achievement-focused content.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Resume Design</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">CV Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Cover Letter Design</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Career Coaching</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Legal Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">SEO Expert</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">LinkedIn Optimization</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Portfolio Item 4 -->
+                <a href="https://manuu.tech/"
+                    title="View a selected Professional website & Portfolio development project (opens in new tab)" target="_blank">
+                    <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="web" data-aos="fade-up"
+                        data-aos-delay="400">
+                        <div class="bg-blue-50 dark:bg-blue-800 h-full flex items-center justify-center">
+                            <i class="fa-solid fa-user-tie text-blue-600 dark:text-blue-300 text-5xl"></i>
+                        </div>
+                        <div class="portfolio-overlay text-white">
+                            <h3 class="multicolor-text1">Portfolio Creation</h3>
+                            <p class="mb-3">Elegant portfolio website with gallery features and client-booking system.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Portfolio Development</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Web Design</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Search Engine Optimization</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">React.js</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Tailwind CSS</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">UI/UX Design</span>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Portfolio Item 5 -->
+                <a href="https://drive.google.com/drive/folders/1blvrBGWbgC2xZAMUpinhNoo149Z0dvdv?usp=drive_link"
+                    title="Explore My Writing Samples (hosted on Google Drive)" target="_blank">
+                    <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="writing" data-aos="fade-up"
+                        data-aos-delay="500">
+                        <div class="bg-blue-100 dark:bg-blue-900 h-full flex items-center justify-center">
+                            <i class="fas fa-book-open text-blue-600 dark:text-blue-300 text-5xl"></i>
+                        </div>
+                        <div class="portfolio-overlay text-white">
+                            <h3 class="multicolor-text1">Writing</h3>
+                            <p class="mb-3">Discover the power of storytelling, clarity, and persuasion. From compelling blog posts to sharp copy and thought-provoking articles, each piece is crafted to engage,
+                                inform, and inspire.</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Online Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Copywriting</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Content Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Academic Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Article Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Technical Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Proofreading & Editing</span>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <!-- Portfolio Item 6 -->
+                <a href="https://drive.google.com/drive/folders/1x6CCU_883iy2wyJgRqyDdKtBLL1gFq_O?usp=drive_link"
+                    title="View Samples of Crafted Medical Blogs and Articles (hosted on Google Drive)" target="_blank">
+                    <div class="portfolio-item rounded-lg overflow-hidden shadow-lg h-72" data-category="resume" data-aos="fade-up"
+                        data-aos-delay="600">
+                        <div class="bg-blue-50 dark:bg-blue-800 h-full flex items-center justify-center">
+                            <i class="fa-solid fa-laptop-medical text-blue-600 dark:text-blue-300 text-5xl"></i>
+                        </div>
+                        <div class="portfolio-overlay text-white">
+                            <h3 class="multicolor-text1">Medical Writing</h3>
+                            <p class="mb-3">Medical writing demands clarity, accuracy, and trust. View a showcase of well-researched
+                                blogs and articles that translate complex health topics into engaging, reader-friendly content—without
+                                compromising scientific integrity</p>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Academic Research</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Proofreading & Editing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">Medical Writing</span>
+                                <span class="bg-blue-600 bg-opacity-50 px-3 py-1 rounded-full text-xs">SEO</span>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </a>
+            
+            <div class="text-center mt-12">
+                <a href="https://www.upwork.com/freelancers/~01e0000e6224a3e299" 
+                target="_blank" rel="nofollow noopener noreferrer" class="btn-primary inline-block">Discuss Your Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section-container">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-blue-600">Skills</span></h2>
+                <p class="text-lg max-w-2xl mx-auto">A comprehensive set of technical and creative abilities that drive successful project outcomes.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10">
+                <div data-aos="fade-right">
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Academic Research & Writing</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="95%" style="width: 0"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Resume & CV Development</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="97%" style="width: 0"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Search Engine Optimization</h3>
+                            
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="88%" style="width: 0"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">AI Humanization & Plagiarism Checker</h3>
+                            
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="92%" style="width: 0"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Proofreading & Editing</h3>
+                        
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="97%" style="width: 0"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div data-aos="fade-left">
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Web Development (HTML, CSS & JAVASCRIPT)</h3>
+                            
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="90%" style="width: 0"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Cover Letter Writing</h3>
+                            
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="100%" style="width: 0"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Professional Portfolio Design</h3>
+                            
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="90%" style="width: 0"></div>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Responsive UI/UX Design</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="86%" style="width: 0"></div>
+                        </div>
+                    </div>
+
+                    <div class="mb-8">
+                        <div class="flex justify-between mb-2">
+                            <h3 class="font-bold">Data Analysis & Annotation</h3>
+                        </div>
+                        <div class="skill-progress">
+                            <div class="skill-progress-bar" data-percent="86%" style="width: 0"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="mt-16 text-center">
+                <a href="Philip.M Resume.pdf" class="btn-primary inline-flex items-center">
+                    <i class="fa-solid fa-eye mr-2"></i>
+                    View My Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section-container">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Client <span class="text-blue-600">Testimonials</span></h2>
+                <p class="text-lg max-w-2xl mx-auto">Don't just take my word for it. Here's what my clients have to say about working with me.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card p-8 testimonial-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 text-2xl font-bold mr-4">
+                            MJ
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Mercy Jane</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Marketing Director</p>
+                        </div>
+                    </div>
+                    <p class="italic">"Philip transformed our website content completely. His writing is engaging, SEO-friendly, and perfectly aligned with our brand voice. Our traffic has increased by 45% since implementing his content strategy."</p>
+                    <div class="mt-4 text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="card p-8 testimonial-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 text-2xl font-bold mr-4">
+                            RB
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Radhika Birhanu</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Photographer</p>
+                        </div>
+                    </div>
+                    <p class="italic">"My portfolio website created by Philip has been a game-changer for my business. The design is stunning, user-friendly, and showcases my work beautifully. I've received numerous compliments and new client inquiries since launching."</p>
+                    <div class="mt-4 text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="card p-8 testimonial-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 text-2xl font-bold mr-4">
+                            ER
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Elena Rodriguez</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Job Seeker</p>
+                        </div>
+                    </div>
+                    <p class="italic">"After months of job searching with no success, Philip revamped my resume and cover letter. Within two weeks, I had three interview offers, including one for my dream job which I ultimately accepted. Worth every penny!"</p>
+                    <div class="mt-4 text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="card p-8 testimonial-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 text-2xl font-bold mr-4">
+                            JM
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Joshue Monroe</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Small Business Owner</p>
+                        </div>
+                    </div>
+                    <p class="italic">"Philip's proofreading services saved us from publishing marketing materials with embarrassing errors. His attention to detail is remarkable, and he provided valuable suggestions that improved our messaging significantly."</p>
+                    <div class="mt-4 text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 5 -->
+                <div class="card p-8 testimonial-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 text-2xl font-bold mr-4">
+                            HL
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Huan Lee</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Author</p>
+                        </div>
+                    </div>
+                    <p class="italic">"I hired Philip to help edit my manuscript, and I couldn't be happier with the results. He maintained my voice while refining the prose and catching inconsistencies I'd missed despite multiple reviews. A true professional."</p>
+                    <div class="mt-4 text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 6 -->
+                <div class="card p-8 testimonial-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="flex items-center mb-6">
+                        <div class="w-16 h-16 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 text-2xl font-bold mr-4">
+                            OM
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Omar Mohammed</h4>
+                            <p class="text-sm text-gray-600 dark:text-gray-400">Startup Founder</p>
+                        </div>
+                    </div>
+                    <p class="italic">"Philip developed our entire website from scratch, including writing all content. The results exceeded our expectations, and we launched on schedule. Our investors were impressed with the professional presentation."</p>
+                    <div class="mt-4 text-yellow-400 flex">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="section-container">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">My <span class="text-blue-600">Blogs</span></h2>
+                <p class="text-lg max-w-2xl mx-auto">Insights, tips, and stories about content creation, web development, and career advancement.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Blog Post 1 -->
+                <div class="blog-card shadow-lg rounded-lg overflow-hidden" data-aos="fade-up" data-aos-delay="100">
+                    <div class="h-48 bg-blue-100 dark:bg-blue-900 flex items-center justify-center">
+                        <i class="fas fa-pencil-alt text-blue-600 dark:text-blue-300 text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="blog-date mb-4">June 15, 2021</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">10 Writing Tips for Engaging Web Content</h3>
+                        <p class="blog-p">Learn how to create web content that captures attention and drives action. These practical tips will transform your website copy.</p>
+                        <a href="https://drive.google.com/drive/folders/171g_E1L2JGrrJa7KaOp7LXKoKSldHZ2m?usp=drive_link"
+                        target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            Read More
+                            <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 2 -->
+                <div class="blog-card shadow-lg rounded-lg overflow-hidden" data-aos="fade-up" data-aos-delay="200">
+                    <div class="h-48 bg-blue-50 dark:bg-blue-800 flex items-center justify-center">
+                        <i class="fas fa-code text-blue-600 dark:text-blue-300 text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="blog-date mb-4">May 22, 2023</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">The Importance of Responsive Web Design</h3>
+                        <p class="blog-p">In today's mobile-first world, having a responsive website isn't optional. Discover why and how to implement it effectively.</p>
+                        <a href="https://drive.google.com/drive/folders/171g_E1L2JGrrJa7KaOp7LXKoKSldHZ2m?usp=drive_link"
+                        target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            Read More
+                            <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Blog Post 3 -->
+                <div class="blog-card shadow-lg rounded-lg overflow-hidden" data-aos="fade-up" data-aos-delay="300">
+                    <div class="h-48 bg-blue-100 dark:bg-blue-900 flex items-center justify-center">
+                        <i class="fas fa-file-alt text-blue-600 dark:text-blue-300 text-4xl"></i>
+                    </div>
+                    <div class="p-6">
+                        <span class="blog-date mb-4">April 10, 2025</span>
+                        <h3 class="text-xl font-bold mt-2 mb-3">Resume Mistakes That Could Cost You the Job</h3>
+                        <p class="blog-p">Avoid these common resume pitfalls that recruiters instantly notice. Simple changes that can significantly boost your chances.</p>
+                        <a href="https://drive.google.com/drive/folders/171g_E1L2JGrrJa7KaOp7LXKoKSldHZ2m?usp=drive_link"
+                        target="_blank" rel="nofollow noopener noreferrer" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            Read More
+                            <i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="https://drive.google.com/drive/folders/171g_E1L2JGrrJa7KaOp7LXKoKSldHZ2m?usp=drive_link"
+                 target="_blank" rel="nofollow noopener noreferrer" class="btn-primary">
+                 View All Posts
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-container">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16" data-aos="fade-up">
+                <h2 class="text-3xl md:text-4xl font-bold mb-4">Get in <span class="text-blue-600">Touch</span></h2>
+                <p class="text-lg max-w-2xl mx-auto">Ready to start your project? Contact me today for a consultation or to discuss how I can help you achieve your goals.</p>
+            </div>
+            
+            <div class="flex flex-wrap -mx-4">
+                <!-- Contact Form -->
+                <div class="w-full lg:w-7/12 px-4 mb-10 lg:mb-0" data-aos="fade-right">
+                    <div class="card p-8">
+                        <form id="contact-form">
+                            <div class="mb-6">
+                                <label class="block mb-2 font-medium" for="name">Your Name</label>
+                                <input type="text" id="name" class="w-full px-4 py-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label class="block mb-2 font-medium" for="email">Your Email</label>
+                                <input type="email" id="email" class="w-full px-4 py-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label class="block mb-2 font-medium" for="service">Service Needed</label>
+                                <select id="service" class="w-full px-4 py-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500" required>
+                                    <option value="" selected disabled>Select a service</option>
+                                    <option value="writing">Professional Writing</option>
+                                    <option value="proofreading">Proofreading & Editing</option>
+                                    <option value="resume">Resume/CV Creation</option>
+                                    <option value="website">Website Development</option>
+                                    <option value="portfolio">Portfolio Design</option>
+                                    <option value="strategy">Content Strategy</option>
+                                </select>
+                            </div>
+                            
+                            <div class="mb-6">
+                                <label class="block mb-2 font-medium" for="message">Your Message</label>
+                                <textarea id="message" rows="5" class="w-full px-4 py-3 rounded-md border focus:outline-none focus:ring-2 focus:ring-blue-500" required></textarea>
+                            </div>
+                            
+                            <button data-email-id="philip" class="email-obfuscator btn-primary w-full" type="submit">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="w-full lg:w-5/12 px-4" data-aos="fade-left">
+                    <div class="card p-8 h-full flex flex-col justify-between">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+                            <p class="mb-8">Feel free to reach out with any questions or project inquiries. I'm available for Freelance work and consulting services.</p>
+                            
+                            <div class="space-y-4">
+                                <div class="flex items-center">
+                                    <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 mr-4">
+                                        <i class="fas fa-phone fa-bounce"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400">Phone</h4>
+                                        <a href="tel:+254718856850" class="contact-text font-bold">+254 718 856 850</a>
+                                    </div>
+                                </div>
+                                
+                                <div class="flex items-center">
+                                    <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 mr-4">
+                                        <i class="fas fa-envelope fa-bounce"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400">Email</h4>
+                                        <a data-email-id="philip" class="email-obfuscator contact-text text-lg font-bold break-all">phìĺìp.muhuri@gmąil.com</a>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center">
+                                    <div class="w-12 h-12 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 mr-4">
+                                        <i class="fa-brands fa-whatsapp fa-bounce"></i>
+                                    </div>
+                                    <div>
+                                        <h4 class="text-sm font-medium text-gray-500 dark:text-gray-400">Whatsapp</h4>
+                                        <a href="https://wa.me/254718856850" target="_blank" rel="nofollow noopener noreferrer" class="contact-text font-bold">+254 718 856 850</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-12">
+                            <h4 class="font-bold mb-4">Reach Me Out</h4>
+                            <div class="flex">
+                                <a href="https://wa.me/254718856850" title="Whatsapp" class="social-icon">
+                                    <i class="fa-brands fa-whatsapp"></i>
+                                </a>
+                                
+                                <a href="https://github.com/TopDeveloper-Philip" title="Github"
+                                target="_blank" rel="nofollow noopener noreferrer"class="social-icon">
+                                    <i class="fab fa-github"></i>
+                                </a>
+
+                                <a href="https://www.instagram.com/compt.echnician/" title="Instagram"
+                                target="_blank" rel="nofollow noopener noreferrer"class="social-icon">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer-container py-12">
+        
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap">
+                
+                <div class="w-full md:w-1/4 mb-10 md:mb-0">
+                    <h3 class="text-2xl font-bold mb-4">Dr.Philip Muhuri, OGW</h3>
+                    <p class="mb-4">Professional Writer & Web Developer specializing in creating compelling content and stunning websites that drive results.</p>
+                    <p>&copy; 2025 Philip Muhuri. All Rights Reserved.</p>
+                </div>
+                
+                <div class="quick-links mx-auto text-center">
+                    <h3 class="text-xl font-bold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#home" class="hover:text-blue-400 transition-colors">Home</a></li>
+                        <li><a href="#services" class="hover:text-blue-400 transition-colors">Services</a></li>
+                        <li><a href="#portfolio" class="hover:text-blue-400 transition-colors">Portfolio</a></li>
+                        <li><a href="#testimonials" class="hover:text-blue-400 transition-colors">Testimonials</a></li>
+                        <li><a href="#blog" class="hover:text-blue-400 transition-colors">Blog</a></li>
+                        <li><a href="#contact" class="hover:text-blue-400 transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="w-full md:w-4/12">
+                    <h3 class="text-xl font-bold mb-4">Newsletter</h3>
+                    <p class="mb-4">Subscribe to receive updates and valuable content tips.</p>
+                    <form class="flex">
+                        <input type="email" placeholder="Your Email" class="px-4 py-2 w-full rounded-l-md focus:outline-none text-gray-800">
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-r-md transition-colors">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+<div class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <script src="main.js"></script>
+</body>
+</html>
+<!-- End of HTML Document -->
